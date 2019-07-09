@@ -23,6 +23,7 @@
           <i class="fa fa-plus-circle"></i>
           New Place
         <% end %>
+      </li>
     </ul>
     <ul class="navbar-nav">
       <% if user_signed_in? %>
@@ -31,8 +32,12 @@
         </li>
       <% else %>
         <li class="nav-item">
+          <%= link_to 'Sign in', new_user_session_path, class: 'nav-link' %>
+        </li>
+        <li class="nav-item">
           <%= link_to 'Sign up', new_user_registration_path, class: 'nav-link' %>
         </li>
+    </ul>
       <% end %>
   </div>
 </nav>
@@ -41,7 +46,7 @@
   <p class="alert alert-info"><%= notice %></p>
 <% end %>
 <% if alert.present? %>
-  <p class="alert alert-danger"><%= alter %></p>
+  <p class="alert alert-danger"><%= alert %></p>
 <% end %>
 
 <%= yield %>
