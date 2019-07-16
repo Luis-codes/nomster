@@ -12,6 +12,7 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  display: inline-block;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,4 +34,9 @@ body {
   color: #42a7f5;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-family: 'Barriecito', cursive;
+}
+
+.digg_pagination {
+  border-color: black;
+  border-radius: 10px;
 }
