@@ -40,40 +40,11 @@ body {
     float: left;
     padding: 0 14px;
     line-height: 38px;
-    text-decoration: none;
-    background-color: white;
+    text-decoration: blink;
+    background-color: #d9d9d9;
     border: 1px solid #DDD;
     border-left-width: 0;
-}
-
-.pagination {
-    border-left: 1px solid #ddd;
-
-    .first {
-        padding : 0;
-        float: none;
-        border: none;
-    }
-    .previous_page {
-        padding : 0;
-        float: none;
-        border: none;
-    }
-    .page{
-        padding : 0;
-        float: none;
-        border: none;
-    }
-    .next{
-        padding : 0;
-        float: none;
-        border: none;
-    }
-    .last{
-        padding : 0;
-        float: none;
-        border: none;
-    }
+    border-radius: 5px;
 }
 
   #map {
@@ -83,6 +54,7 @@ body {
 .clear {
   clear: both;
 }
+
 
 blockquote {
   background: #f9f9f9;

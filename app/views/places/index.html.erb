@@ -18,8 +18,18 @@
         </blockquote>
       </div>
     <% end %>
+
+    <% if place.photos.present? %>
+      <div class="col-12">
+          <% if place.photos.last.present? %>
+            <b><%= image_tag place.photos.last.picture.url %></b> -
+          <% end %>
+          <small><%= place.photos.last.user.email %></small>
+      </div>
+    <% end %>
   </div>
 <% end %>
+
 <br />
 <br />
 <br />
