@@ -61,9 +61,8 @@ body {
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  max-height: 550px;
+  max-height: 420px;
   width: 100%;
-  margin: 0 10% 0 10%;
 }
 
 .carousel-caption {
@@ -75,10 +74,6 @@ body {
   max-width: 100%;
   position: absolute;
   left: 0;
-}
-
-.carousel-item.active, .carousel-item-next, .carousel-item-prev {
-  display: block;
 }
 
 blockquote {
