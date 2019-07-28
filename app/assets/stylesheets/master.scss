@@ -28,6 +28,7 @@ body {
 .navbar {
   background: image_url('dark-grey-terrazzo.png');
   box-shadow: 0px 1px 3px #42a7f5;
+  margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-brand {
@@ -55,6 +56,30 @@ body {
   clear: both;
 }
 
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: 550px;
+  width: 100%;
+  margin: 0 10% 0 10%;
+}
+
+.carousel-caption {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+  display: block;
+}
 
 blockquote {
   background: #f9f9f9;
