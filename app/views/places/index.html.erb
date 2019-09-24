@@ -56,7 +56,7 @@
     <% end %>
 
     <% if place.photos.present? %>
-      <div class="col-12">
+      <div class="col-12 col-sm-6">
           <% if place.photos.last.present? %>
             <b><%= image_tag place.photos.last.picture.url %></b> -
           <% end %>
